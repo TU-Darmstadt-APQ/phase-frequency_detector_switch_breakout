@@ -324,7 +324,7 @@
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp c7f7caf3-9f0f-4eab-87b5-23db21069e51))
   (gr_line (start 137 94) (end 137 81)
     (stroke (width 0.1) (type solid)) (layer "Edge.Cuts") (tstamp f7ee31a0-8cdc-49c6-9b87-9f0dc176efc6))
-  (gr_text "Switch breakout board\n06/23 Rev 1.0" (at 136 81.7) (layer "B.SilkS") (tstamp 21de8db0-2f86-4db1-9a76-104b2c8a3e6a)
+  (gr_text "Switch breakout board\n11/23 Rev 1.0.1" (at 136 81.7) (layer "B.SilkS") (tstamp 21de8db0-2f86-4db1-9a76-104b2c8a3e6a)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "Use with phase-\nfrequency-detector" (at 135.8 93.1) (layer "B.SilkS") (tstamp 7a8b3168-a1a0-4fa9-a07a-2075149a3937)
