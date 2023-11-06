@@ -296,6 +296,11 @@
     (uuid 6bf950a5-85be-4d91-9153-fab64c0bb581)
   )
 
+  (no_connect (at 118.11 113.665) (uuid 204084cf-bbde-4e9f-bca0-9e6d10ad9a51))
+  (no_connect (at 118.11 111.125) (uuid 58806173-87a0-4bf5-873d-3984a31e8bbb))
+  (no_connect (at 118.11 106.045) (uuid 77d45e6d-7181-427e-9e3b-7c063f7c715b))
+  (no_connect (at 118.11 108.585) (uuid bd133cbb-e35a-49d8-b9f0-4ffa573d4c43))
+
   (wire (pts (xy 166.37 83.82) (xy 166.37 74.93))
     (stroke (width 0) (type default))
     (uuid 01a11874-e006-409f-b930-4ee34c1752e1)
@@ -389,6 +394,12 @@
     (uuid f7729bef-5063-4829-b869-325feeaeda97)
   )
 
+  (text "Use a 15cm 4-pin JST PH-2mm cable\nto connect the board."
+    (at 121.92 111.125 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 905a6fa8-45f5-4662-aa85-191cc0e2ee61)
+  )
+
   (symbol (lib_id "power:PWR_FLAG") (at 121.92 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14ebbced-ca0e-49a0-b4fa-2288b7d361a0)
@@ -440,6 +451,40 @@
       (project "switch_breakout"
         (path "/758a4320-fe7a-4a97-a7ae-c87e0441a96b"
           (reference "#PWR0101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic:Conn_01x04") (at 113.03 111.125 180) (unit 1)
+    (in_bom yes) (on_board no) (dnp no)
+    (uuid 24140ea7-f1d3-422d-8de7-0a7d9df0c9da)
+    (property "Reference" "J2" (at 113.9444 103.8098 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Cable" (at 116.2558 103.8098 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" (at 113.03 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 113.03 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFN" "Adafruit" (at 113.03 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "PN" "3568" (at 113.03 111.125 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 35e94270-661b-44b6-8d4c-5b43730b7a39))
+    (pin "2" (uuid b1d0dbd5-5224-4b68-bd87-9e7981723c37))
+    (pin "3" (uuid 88eb50b9-558d-4cc9-85d3-2327f37dc43a))
+    (pin "4" (uuid 38df4b90-18ac-449d-bb42-5cf813af6897))
+    (instances
+      (project "switch_breakout"
+        (path "/758a4320-fe7a-4a97-a7ae-c87e0441a96b"
+          (reference "J2") (unit 1)
         )
       )
     )
