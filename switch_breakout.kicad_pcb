@@ -179,8 +179,8 @@
       (net 1 "Net-(J1-Pin_1)") (pinfunction "B") (pintype "passive") (tstamp 692f271b-6886-4acc-a5f3-332eec486b14))
     (pad "6" thru_hole circle (at 8.7 7.1) (size 3 3) (drill 1.85) (layers "*.Cu" "*.Mask")
       (net 3 "Net-(J1-Pin_3)") (pinfunction "C") (pintype "passive") (tstamp d3e59563-ff46-4db1-9b2a-e2b11ef28947))
-    (model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Push_2P2T_Toggle_CK_PVA2xxH4xxxxxxV2.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3dmodels/c-1825139-9-a-3d.stp"
+      (offset (xyz 4 -4.55 29))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

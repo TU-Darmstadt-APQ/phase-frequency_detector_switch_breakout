@@ -6,7 +6,10 @@ preflight:
   run_erc: true
   update_xml: true
   ignore_unconnected: false
-
+  filters:
+    - filter: 'Custom 3D models were added to the footprints'
+      error: lib_footprint_mismatch
+      regex: 'SW_2P2T_Toggle_NKK_M2023SS4W03'
 variants:
   - name: 'default'
     comment: 'The default PCB variant.'
